@@ -12,4 +12,13 @@
   		<version>2.2.1</version>
   	</dependency>
   </dependencies>
+  <scm>
+  	<url>scm:git:git://github.com/lhw/duckduckgo.git</url>
+  	<connection>scm:git:git://github.com/lhw/duckduckgo.git</connection>
+  	<developerConnection>scm:git:ssh://git@github.com:lhw/duckduckgo.git</developerConnection>
+  </scm>
+  <issueManagement>
+  	<system>Github</system>
+  	<url>https://github.com/lhw/duckduckgo/issues</url>
+  </issueManagement>
 </project>
