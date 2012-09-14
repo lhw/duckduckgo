@@ -67,6 +67,9 @@ public class SearchResults {
 	public List<Result> getResults() {
 		return Results;
 	}
+	public void setResults(List<Result> l) {
+		Results = l;
+	}
 	public boolean hasResults() {
 		return Results.size() != 0;
 	}

@@ -11,6 +11,12 @@ public class Result {
 	private String FirstURL;
 	private String Text;
 	
+	public Result(PrivateResult r) {
+		Result = r.t;
+		FirstURL = r.c;
+		Text = r.a;
+	}
+	
 	private class Icon {
 		private String URL;
 		private String Height;
