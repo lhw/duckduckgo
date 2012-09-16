@@ -39,5 +39,28 @@
         </configuration>
       </plugin>
     </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-scm</artifactId>
+        <version>2.2</version>
+      </extension>
+      <extension>
+        <groupId>org.apache.maven.scm</groupId>
+        <artifactId>maven-scm-manager-plexus</artifactId>
+        <version>1.8</version>
+      </extension>
+      <extension>
+        <groupId>org.apache.maven.scm</groupId>
+        <artifactId>maven-scm-provider-gitexe</artifactId>
+        <version>1.8</version>
+      </extension>
+    </extensions>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>gh.pages</id>
+      <url>scm:git:ssh://git@github.com/lhw/duckduckgo.git</url>
+    </repository>
+  </distributionManagement>
 </project>
