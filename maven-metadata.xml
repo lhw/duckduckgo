@@ -4,10 +4,9 @@
   <artifactId>duckduckgo</artifactId>
   <version>0.0.2-SNAPSHOT</version>
   <versioning>
-    <snapshot>
-      <timestamp>20120916.171951</timestamp>
-      <buildNumber>1</buildNumber>
-    </snapshot>
-    <lastUpdated>20120916171959</lastUpdated>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120916171951</lastUpdated>
   </versioning>
 </metadata>
