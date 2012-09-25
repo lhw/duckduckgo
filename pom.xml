@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.ring0.lhw</groupId>
   <artifactId>duckduckgo</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <name>DuckDuckGo API</name>
   <description>A Java library for the internet search engine DuckDuckGo which offers semantic search while maintaining user privacy.</description>
   <dependencies>
@@ -39,28 +39,11 @@
         </configuration>
       </plugin>
     </plugins>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-scm</artifactId>
-        <version>2.2</version>
-      </extension>
-      <extension>
-        <groupId>org.apache.maven.scm</groupId>
-        <artifactId>maven-scm-manager-plexus</artifactId>
-        <version>1.8</version>
-      </extension>
-      <extension>
-        <groupId>org.apache.maven.scm</groupId>
-        <artifactId>maven-scm-provider-gitexe</artifactId>
-        <version>1.8</version>
-      </extension>
-    </extensions>
   </build>
   <distributionManagement>
     <repository>
-      <id>gh.pages</id>
-      <url>scm:git:ssh://git@github.com/lhw/duckduckgo.git</url>
+      <id>gh-pages</id>
+		<url>file:${project.basedir}/gh-pages</url>
     </repository>
   </distributionManagement>
 </project>
