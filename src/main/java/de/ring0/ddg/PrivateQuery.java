@@ -89,7 +89,7 @@ public class PrivateQuery {
 			
 			/* prepare string for json parsing */
 			String result = IOUtils.toString(uc.getInputStream());
-			result = result.substring(result.indexOf("["), result.length() - 3);
+			result = result.substring(result.indexOf("["), result.length() - 2);
 			
 			/* parse the json via gson */
 			PrivateResult[] results = _gson.fromJson(result, PrivateResult[].class);

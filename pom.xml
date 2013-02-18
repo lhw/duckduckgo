@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.ring0.lhw</groupId>
   <artifactId>duckduckgo</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <name>DuckDuckGo API</name>
   <description>A Java library for the internet search engine DuckDuckGo which offers semantic search while maintaining user privacy.</description>
   <dependencies>
