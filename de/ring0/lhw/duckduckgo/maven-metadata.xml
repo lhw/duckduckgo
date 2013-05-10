@@ -3,11 +3,12 @@
   <groupId>de.ring0.lhw</groupId>
   <artifactId>duckduckgo</artifactId>
   <versioning>
-    <release>0.0.3</release>
+    <release>0.0.4</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
+      <version>0.0.4</version>
     </versions>
-    <lastUpdated>20130218195152</lastUpdated>
+    <lastUpdated>20130510105109</lastUpdated>
   </versioning>
 </metadata>
